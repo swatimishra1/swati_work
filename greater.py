@@ -1,6 +1,5 @@
-x = 1
-y = 2
-if x > y;
-	print("x is greater")
-else;
-	print("x is not greater than y")
+num=int(input("enter any number"))
+sum=0
+for i in range(1,num+1)
+	sum+=i
+print(sum)
